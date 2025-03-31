@@ -1,60 +1,41 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-roboto);
 
-  --color-primary-green: '#57B660';
-  --color-primary-white: '#FFFFFF';
-  --color-primary-black: '#181414';
+  --color-fill-sidebar: #090707;
 
-  --color-decorative-blue-moon: '#649AED';
-  --color-decorative-red-red-wine: '#EB5640';
-  --color-decorative-mellow-yellow: '#F6C874';
-  --color-decorative-white-shade-of-pale: '#A7C2D1';
-  --color-decorative-evergreen: '#D5F479';
-  --color-decorative-pretty-in-pink: '#F7CFD4';
-  --color-decorative-pink-moon: '#E57BA1';
-  --color-decorative-yellow-submarine: '#F4E357';
+  --color-primary-green: #57B660;
+  --color-primary-white: #FFFFFF;
+  --color-primary-black: #181414;
 
-  --color-ui-grey-0: '#211d1d';
-  --color-ui-grey-1: '#2a2626';
-  --color-ui-grey-2: '#343131';
-  --color-ui-grey-3: '#464343';
-  --color-ui-grey-4: '#5d5a5a';
-  --color-ui-grey-5: '#747272';
-  --color-ui-grey-6: '#8c8a8a';
+  --color-decorative-blue-moon: #649AED;
+  --color-decorative-red-red-wine: #EB5640;
+  --color-decorative-mellow-yellow: #F6C874;
+  --color-decorative-white-shade-of-pale: #A7C2D1;
+  --color-decorative-evergreen: #D5F479;
+  --color-decorative-pretty-in-pink: #F7CFD4;
+  --color-decorative-pink-moon: #E57BA1;
+  --color-decorative-yellow-submarine: #F4E357;
+
+  --color-ui-grey-0: #211d1d;
+  --color-ui-grey-1: #2a2626;
+  --color-ui-grey-2: #343131;
+  --color-ui-grey-3: #464343;
+  --color-ui-grey-4: #5d5a5a;
+  --color-ui-grey-5: #747272;
+  --color-ui-grey-6: #8c8a8a;
 
 }
 
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
 
-* {
-  margin: 0;
-}
-
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
 
 img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
-  font: inherit;
-}
 
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
