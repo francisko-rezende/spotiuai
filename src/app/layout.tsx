@@ -22,7 +22,9 @@ export default function RootLayout({
       <body className={`${roboto.variable} antialiased`}>
         <div className="grid grid-cols-[minmax(250px,_25%)_1fr]">
           <Sidebar />
-          <main>{children}</main>
+          <main className="min-h-screen bg-primary-black p-12 text-primary-white">
+            {children}
+          </main>
         </div>
       </body>
     </html>
